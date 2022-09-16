@@ -2,7 +2,7 @@ module github.com/jonnyorman/firelete/example2
 
 go 1.18
 
-require github.com/jonnyorman/firelete v0.0.0-20220916145607-a1249a995215
+require github.com/jonnyorman/firelete v0.0.0-20220916162028-143b77704de7
 
 require (
 	cloud.google.com/go v0.104.0 // indirect

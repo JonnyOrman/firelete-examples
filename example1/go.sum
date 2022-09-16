@@ -204,8 +204,8 @@ github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
-github.com/jonnyorman/firelete v0.0.0-20220916145607-a1249a995215 h1:ArrX1CqEoqRt0cipapjwohUVPrK1LaDJpQxXf4UfBk0=
-github.com/jonnyorman/firelete v0.0.0-20220916145607-a1249a995215/go.mod h1:kXRkgZ9WgQq7Ynm1Be3lkuziuSP05b1rEwGxlokT+YU=
+github.com/jonnyorman/firelete v0.0.0-20220916162028-143b77704de7 h1:6x9bGVi77bOrf4+/DKe+zyQyd1NYIZ8aXLG7RoIdRj8=
+github.com/jonnyorman/firelete v0.0.0-20220916162028-143b77704de7/go.mod h1:kXRkgZ9WgQq7Ynm1Be3lkuziuSP05b1rEwGxlokT+YU=
 github.com/jonnyorman/fireworks v0.1.0 h1:KALWVtFKDBMdy8lAPkjRJGhLkY7SLzb29c2qbZg3AzQ=
 github.com/jonnyorman/fireworks v0.1.0/go.mod h1:+fjReOmRrqJSgyjbCTemqN135GJw9z93kR0/R6MclZY=
 github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=

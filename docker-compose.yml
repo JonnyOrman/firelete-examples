@@ -1,0 +1,67 @@
+version: '3.7'
+services:
+  firebase-emulator:
+    build:
+      context: ./firebase-emulator
+    ports:
+      - "4000:4000"
+      - "8080:8080"
+  example1:
+    build:
+      context: ./example1
+      args:
+          - GITHUB_USERNAME=$GITHUB_USERNAME
+          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3001
+    ports:
+      - "3001:3001"
+    depends_on:
+     - firebase-emulator
+  example2:
+    build:
+      context: ./example2
+      args:
+          - GITHUB_USERNAME=$GITHUB_USERNAME
+          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3002
+    ports:
+      - "3002:3002"
+    depends_on:
+     - firebase-emulator
+  example3:
+    build:
+      context: ./example3
+      args:
+          - GITHUB_USERNAME=$GITHUB_USERNAME
+          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3003
+      PROJECT_ID: "my-firelete-project"
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3003:3003"
+    depends_on:
+     - firebase-emulator
+  example4:
+    build:
+      context: ./example4
+      args:
+          - GITHUB_USERNAME=$GITHUB_USERNAME
+          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3004
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3004:3004"
+    depends_on:
+     - firebase-emulator

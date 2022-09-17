@@ -9,9 +9,6 @@ services:
   example1:
     build:
       context: ./example1
-      args:
-          - GITHUB_USERNAME=$GITHUB_USERNAME
-          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
     env_file:
       - ./.env
     environment:
@@ -23,9 +20,6 @@ services:
   example2:
     build:
       context: ./example2
-      args:
-          - GITHUB_USERNAME=$GITHUB_USERNAME
-          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
     env_file:
       - ./.env
     environment:
@@ -37,9 +31,6 @@ services:
   example3:
     build:
       context: ./example3
-      args:
-          - GITHUB_USERNAME=$GITHUB_USERNAME
-          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
     env_file:
       - ./.env
     environment:
@@ -53,9 +44,6 @@ services:
   example4:
     build:
       context: ./example4
-      args:
-          - GITHUB_USERNAME=$GITHUB_USERNAME
-          - GITHUB_GO_GET_PAT=$GITHUB_GO_GET_PAT
     env_file:
       - ./.env
     environment:

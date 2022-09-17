@@ -39,4 +39,8 @@ The `data` value must be a JSON object with a `documentID` value in Base64 forma
 }
 ```
 
-For `example2` the `documentID` must be a numeric value, for the rest it must be a string.
+For `example2` the `documentID` must be a numeric value. For example:
+```
+{
+    "documentID": 123
+}

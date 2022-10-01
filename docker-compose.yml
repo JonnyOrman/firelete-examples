@@ -53,3 +53,15 @@ services:
       - "3004:3004"
     depends_on:
      - firebase-emulator
+  example5:
+    image: jonnyorman/firelete:latest
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3005
+      PROJECT_ID: "my-firelete-project"
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3005:3005"
+    depends_on:
+      - firebase-emulator

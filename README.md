@@ -7,6 +7,7 @@ It contains the following examples:
 - `example2` - deletes documents with int IDs
 - `example3` - config retrieved from the environment
 - `example4` - config retrieved from both the config file and the environment
+- `example5` - uses the Docker image
 
 # How to run
 
@@ -22,6 +23,7 @@ To use each of the examples, `POST` to the following:
 - `example2` - `localhost:3002`
 - `example3` - `localhost:3003`
 - `example4` - `localhost:3004`
+- `example5` - `localhost:3005`
 
 Include the `Content-Type` header set to `application/json` and a body that looks like this:
 ```
